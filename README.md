@@ -41,4 +41,4 @@ The IgG control is also fine, but because so little DNA is there, you might get 
 **Different parameters using the same program can produce drastic different sets of peaks especially for histone modifications with variable enrichment length and gaps between peaks. One needs to make a valid argument for parameters he uses** 
 
 An example of different parameters for homer `findPeaks`:  
-![](./images/variablePeaks.png)
+![](http://i.imgur.com/zT2mVwT.png)
