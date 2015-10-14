@@ -1,8 +1,6 @@
 # ChIP-Seq-Analysis
 Documentation for CHIP Seq Analysis
 
-# ChIP-seq-analysis
-
 ### Resources for ChIP-seq data 
 1. [ENCODE: Encyclopedia of DNA Elements](https://www.encodeproject.org/)  
 2. [ENCODE Factorbook](https://www.encodeproject.org/)  
