@@ -38,6 +38,7 @@ The IgG control is also fine, but because so little DNA is there, you might get 
 1. The most popular peak caller by Tao Liu: [MACS2](https://github.com/taoliu/MACS/). Now `--broad` flag supports broad peaks calling as well.
 2. [HOMER](http://homer.salk.edu/homer/ngs/peaks.html) can also used to call Transcription factor ChIP-seq peaks and histone 
     modification ChIP-seq peaks.
+
 **Different parameters using the same program can produce drastic different sets of peaks especially for histone modifications with variable enrichment length and gaps between peaks. You need to be able to make a valid argument for the parameters you use.** 
 
 An example of different parameters for homer `findPeaks`:  
