@@ -32,4 +32,13 @@ Documentation for CHIP Seq Analysis
 
 ### Peak calling  
 
-Currently testing.
+It is important to have controls for your ChIP-seq experiments. A DNA input control (no antibody is applied) is prefered.
+The IgG control is also fine, but because so little DNA is there, you might get many duplicated reads due to PCR artifact.
+
+1. The most popular peak caller by Tao Liu: [MACS2](https://github.com/taoliu/MACS/). Now `--broad` flag supports broad peaks calling as well.
+2. [HOMER](http://homer.salk.edu/homer/ngs/peaks.html) can also used to call Transcription factor ChIP-seq peaks and histone 
+    modification ChIP-seq peaks.
+**Different parameters using the same program can produce drastic different sets of peaks especially for histone modifications with variable enrichment length and gaps between peaks. One needs to make a valid argument for parameters he uses** 
+
+An example of different parameters for homer `findPeaks`:  
+![](./images/variablePeaks.png)
