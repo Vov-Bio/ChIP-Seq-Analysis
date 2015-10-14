@@ -29,3 +29,7 @@ Documentation for CHIP Seq Analysis
 3. [Spatial clustering for identification of ChIP-enriched regions (SICER) to map regions of histone methylation patterns in embryonic stem cells](http://www.ncbi.nlm.nih.gov/pubmed/24743992)
 4. [ENCODE tutorials](http://www.genome.gov/27553900) 
 5. [A User's Guide to the Encyclopedia of DNA Elements (ENCODE)](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001046)
+
+### Peak calling  
+
+Currently testing.
