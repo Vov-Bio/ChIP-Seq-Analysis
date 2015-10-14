@@ -43,3 +43,20 @@ The IgG control is also fine, but because so little DNA is there, you might get 
 
 An example of different parameters for homer `findPeaks`:  
 ![](http://i.imgur.com/zT2mVwT.png)
+
+### Gene set enrichment analysis for ChIP-seq peaks  
+1. [Broad Enrich](http://broad-enrich.med.umich.edu/)  
+2. [ChIP Enrich](http://chip-enrich.med.umich.edu/)  
+3. [GREAT](http://bejerano.stanford.edu/great/public/html/) predicts functions of cis-regulatory regions.  
+4. [ENCODE ChIP-seq significance tool](http://encodeqt.simple-encode.org/). Given a list of genes, co-regulating TFs will be identified.  
+5. [cscan](http://159.149.160.51/cscan/) similar to the ENCODE significance tool.  
+6. [CompGO: an R package for comparing and visualizing Gene Ontology enrichment differences between DNA binding experiments](http://www.biomedcentral.com/1471-2105/16/275)  
+7. [interactive and collaborative HTML5 gene list enrichment analysis tool](http://amp.pharm.mssm.edu/Enrichr/)
+
+### Peak annotation 
+
+1. Homer [`annotatePeak`](http://homer.salk.edu/homer/ngs/annotation.html) 
+2. Bioconductor package [ChIPseeker](http://bioconductor.org/packages/release/bioc/html/ChIPseeker.html) by [Guangchuan Yu](http://ygc.name/)   
+   See an important post by him on 0 or 1 based [coordinates](http://ygc.name/2015/08/07/parsing-bed-coordinates/).
+
+>Most of the software for ChIP annotation doesn't considered this issue when annotating peak (0-based) to transcript (1-based). To my knowledge, only HOMER consider this issue. After I figure this out, I have updated ChIPseeker (version >= 1.4.3) to fix the issue.
